@@ -1,8 +1,8 @@
 import React from "react";
 import "./Tour.css";
-import tour from "../../../images/tour.png";
-import icon1 from "../../../images/icon1.png";
-import icon2 from "../../../images/icon2.png";
+import tour from "../../images/tour.png";
+import icon1 from "../../images/icon1.png";
+import icon2 from "../../images/icon2.png";
 const Tour = () => {
   return (
     <div className="d-flex container flex-column flex-sm-row justify-content-evenly align-items-center  pt-3 pb-5">

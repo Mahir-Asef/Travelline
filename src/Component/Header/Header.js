@@ -1,19 +1,18 @@
 import React from "react";
 import "./Header.css";
-import brand from "../../../images/brand.png";
-import media from "../../../images/media.png";
-import travel from "../../../images/travel.png";
-import grp1 from "../../images/Group 7.png";
-import grp2 from "../../images/Group 5425.png";
+import brand from "../../images/brand.png";
+import media from "../../images/media.png";
+import travel from "../../images/travel.png";
+
 import { IoMdCall } from "react-icons/io";
-import { GoCalendar } from "@react-icons/all-files/go/GoCalendar";
+// import { GoCalendar } from "@react-icons/all-files/go/GoCalendar";
 const Header = () => {
   return (
     <div className="header">
       <div className="container">
         <nav className="navbar fixed-top navbar-expand-lg" style={{backgroundColor:"#F0C53E"}}>
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/#">
               <img src={brand} alt="" width="180px" height="60px" />
             </a>
             <button

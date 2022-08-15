@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.css";
-import team from "../../../images/team.png";
+import team from "../../images/team.png";
 import { SiWindows } from "@react-icons/all-files/si/SiWindows";
 import { HiOutlineUserGroup } from "@react-icons/all-files/hi/HiOutlineUserGroup";
 const Team = () => {

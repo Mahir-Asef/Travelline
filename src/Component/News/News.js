@@ -8,7 +8,7 @@ const News = () => {
   return (
     <div className="container mt-5 mb-5">
       <div className="d-flex justify-content-evenly flex-column  align-items-center">
-        <h1 className="fs-3 deep-red ">Lastest News and Resources</h1>
+        <h1 className="fs-3 deep-red ">Latest News and Resources</h1>
         <p className="text-wrap">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.

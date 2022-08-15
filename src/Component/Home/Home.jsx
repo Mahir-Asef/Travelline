@@ -1,22 +1,22 @@
 import React from 'react';
-import Footer from '../pages/Footer/Footer';
-import Global from '../pages/Global/Global';
-import Header from '../pages/Header/Header';
-import Hero from '../pages/Hero/Hero';
-import News from '../pages/News/News';
-import Team from '../pages/Team/Team';
-import Tour from '../pages/Tour/Tour';
+import Header from "../Header/Header.js";
+import Hero from "../Hero/Hero.js";
+import Global from "../Global/Global.js";
+import Tour from "../Tour/Tour.js";
+import Team from "../Team/Team.js";
+import News from "../News/News.js";
+import Footer from "../Footer/Footer.js";
 
 const Home = () => {
     return (
         <div>
             <Header/>
-            <Hero/>
+            {/* <Hero/>
             <Global/>
             <Tour/>
             <Team/>
             <News/>
-            <Footer/>
+            <Footer/> */}
         </div>
     );
 };

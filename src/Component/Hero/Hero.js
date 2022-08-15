@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import hero1 from "../../../images/hero1.png";
-import hero2 from "../../../images/hero2.png";
-import hero3 from "../../../images/hero3.png";
+import hero1 from "../../images/hero1.png";
+import hero2 from "../../images/hero2.png";
+import hero3 from "../../images/hero3.png";
 const Hero = () => {
   return (
     <div className="container ">
