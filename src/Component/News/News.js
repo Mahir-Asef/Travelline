@@ -19,31 +19,31 @@ const News = () => {
           <div>
             <img src={new1} width="" className="img-fluid" height="" />
           </div>
-          <div className="news-button text-center my-3">
+          <div className="news-button text-center my-3 mx-auto mx-lg-0">
             <span>news</span>
           </div>
           <div>
-            <p className="deep-red fs-5">Where does it come from?</p>
+            <p className="deep-red fs-5 text-center text-lg-start">Where does it come from?</p>
           </div>
           <div>
-            <p>
+            <p className="text-center text-lg-start">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old.
             </p>
-            <a class="p-1 rounded red mb-0" href="#s">
+            <a className="p-1 rounded red pb-0 mx-auto mx-lg-0" href="#">
               Read more
             </a>
           </div>
         </div>
         <div className="col-12 col-lg-6">
           <div className="d-flex flex-column flex-sm-row justify-content-center ">
-            <div className="me-4">
-              <img src={new2} width="200px" className="img-fluid" height="200px" />
+            <div className="me-0 me-md-3">
+              <img src={new2} width="100%" className="img-fluid mt-4 mt-lg-0" height="200px" />
             </div>
             <div>
-              <p className="deep-red fs-5">Where does it come from?</p>
-              <p>
+              <p className="deep-red fs-5 text-center text-lg-start mt-4 mt-lg-0">Where does it come from?</p>
+              <p className="text-center text-lg-start">
                 Contrary to popular belief, Lorem Ipsum is <br/> not simply random
                 text. It has roots in a <br/> piece of classical Latin literature from
                 45 <br/> BC, making it over 2000 years old.
@@ -51,12 +51,12 @@ const News = () => {
             </div>
           </div>
           <div className="d-flex flex-column flex-sm-row justify-content-center py-4 ">
-            <div className="me-4">
-              <img src={new3} width="200px" className="img-fluid" height="200px" />
+            <div className="me-0 me-md-3">
+              <img src={new3} width="100%" className="img-fluid" height="200px" />
             </div>
             <div>
-              <p className="deep-red fs-5">Where does it come from?</p>
-              <p>
+              <p className="deep-red fs-5 text-center text-lg-start mt-4 mt-lg-0">Where does it come from?</p>
+              <p className="text-center text-lg-start">
                 Contrary to popular belief, Lorem Ipsum is <br/> not simply random
                 text. It has roots in a <br/> piece of classical Latin literature from
                 45 <br/> BC, making it over 2000 years old.
@@ -64,12 +64,12 @@ const News = () => {
             </div>
           </div>
           <div className="d-flex flex-column flex-sm-row justify-content-center ">
-            <div className="me-4">
-              <img src={new4} width="200px" className="img-fluid" height="200px" />
+            <div className="me-0 me-md-3">
+              <img src={new4} width="100%" className="img-fluid" height="200px" />
             </div>
             <div>
-              <p className="deep-red fs-5">Where does it come from?</p>
-              <p>
+              <p className="deep-red fs-5 text-center text-lg-start mt-4 mt-lg-0">Where does it come from?</p>
+              <p className="text-center text-lg-start">
                 Contrary to popular belief, Lorem Ipsum is <br/> not simply random
                 text. It has roots in a <br/> piece of classical Latin literature from
                 45 <br/> BC, making it over 2000 years old.
