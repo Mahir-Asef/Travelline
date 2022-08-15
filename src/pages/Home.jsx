@@ -6,6 +6,8 @@ import Tour from "../Component/Tour/Tour.js";
 import Team from "../Component/Team/Team.js";
 import News from "../Component/News/News.js";
 import Footer from "../Component/Footer/Footer.js";
+import Choose from "../Component/Choose/Choose.js";
+import Testimonial from "../Component/Testimonial/Testimonial.js";
 const Home = () => {
     return (
         <div>
@@ -14,6 +16,8 @@ const Home = () => {
             <Global/>
             <Tour/>
             <Team/>
+            <Choose/>
+            <Testimonial/>
             <News/>
             <Footer/>
         </div>
