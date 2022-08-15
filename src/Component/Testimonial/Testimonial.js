@@ -7,7 +7,7 @@ const Testimonial = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6">
-                        <span className="w-25 d-flex align-items-center"> <hr className="w-25 mx-4" /> TESTIMONIAL</span>
+                        <span className="w-25 d-flex align-items-center"> <hr className="w-25 mx-2" /> TESTIMONIAL</span>
                         <h1 className="fs-1 deep-red my-5">What Customers Say?</h1>
                         <p className="my-5">Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry.</p>
                         <p className="my-5">Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry.</p>

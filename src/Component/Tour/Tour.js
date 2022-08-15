@@ -32,7 +32,7 @@ const Tour = () => {
           <br /> make a type specimen book.
           <br />
         </p>
-        <a class="p-1 rounded red mb-0" href="#s">
+        <a class="p-1 rounded red mb-3" href="#s">
           learn more
         </a>
       </div>

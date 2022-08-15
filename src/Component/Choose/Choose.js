@@ -1,7 +1,27 @@
 import React from "react";
 import "./Choose.css";
-import { AiFillStar } from "@react-icons/all-files/ai/AiFillStar";
 import SingleCard from "../SingleCard/SingleCard";
+
+const chooseData = [
+  {
+    title: "Handpicked Hotels",
+    description:
+      "Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa",
+    icon: "star"
+  },
+  {
+    title: "World Class Service",
+    description:
+      "Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa",
+    icon: "globe"
+  },
+  {
+    title: "Best Price Guarantee",
+    description:
+      "Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa",
+    icon: "like"
+  }
+];
 const Choose = () => {
   return (
     <div className="container my-5">
@@ -18,9 +38,9 @@ const Choose = () => {
         </div>
         <div className="py-5">
           <div className="row g-5">
-          {
-          [...new Array(3)].map((element,index)=> <SingleCard key={index}/>)
-         }
+            {chooseData.map((element, index) => (
+              <SingleCard singleData={element} key={index} />
+            ))}
             {/* <div className="col-12 col-md-6 col-lg-4">
               <div className="mt-3 position-relative">
                 <div className="d-flex bg-danger icon-h position-absolute">
