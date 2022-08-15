@@ -37,7 +37,7 @@ const News = () => {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="d-flex flex-row justify-conetent-center ">
+          <div className="d-flex flex-column flex-sm-row justify-content-center ">
             <div className="me-4">
               <img src={new2} width="200px" className="img-fluid" height="200px" />
             </div>
@@ -50,7 +50,7 @@ const News = () => {
               </p>
             </div>
           </div>
-          <div className="d-flex flex-row justify-conetent-center py-4 ">
+          <div className="d-flex flex-column flex-sm-row justify-content-center py-4 ">
             <div className="me-4">
               <img src={new3} width="200px" className="img-fluid" height="200px" />
             </div>
@@ -63,7 +63,7 @@ const News = () => {
               </p>
             </div>
           </div>
-          <div className="d-flex flex-row justify-conetent-center ">
+          <div className="d-flex flex-column flex-sm-row justify-content-center ">
             <div className="me-4">
               <img src={new4} width="200px" className="img-fluid" height="200px" />
             </div>

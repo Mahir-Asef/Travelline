@@ -6,6 +6,7 @@ import travel from "../../../images/travel.png";
 import grp1 from "../../../images/Group 7.png";
 import grp2 from "../../../images/Group 5425.png";
 import { IoMdCall } from "react-icons/io";
+import { GoCalendar } from "@react-icons/all-files/go/GoCalendar";
 const Header = () => {
   return (
     <div className="header">
@@ -108,17 +109,33 @@ const Header = () => {
                   className="img-fluid"
                   height="745px"
                 />
-                <div className="position-absolute travel-images">
+                {/* <div className="position-absolute travel-images group-one">
                   <img src={grp1} alt="" width="300px" height="80px" />
+                    <div className="d-flex justify-content-start align-items-center my-3">
+                      <GoCalendar className="p-2 m-3 fs-1 bg-danger text-light border  border-1 rounded" />
+                      <div>
+                        <h1 className="fs-5">250k</h1>
+                        <span>Plan Your Trip</span>
+                        
+                      </div>
+                    </div>
                 </div>
-                <div className="position-absolute travel-images2">
+                <div className="position-absolute travel-images2 group-two">
                   <img
                     src={grp2}
                     alt=""
                     width="350px"
                     height="150px"
                   />
-                </div>
+                  <div className="d-flex justify-content-start align-items-center my-3">
+                      <GoCalendar className="p-2 m-3 fs-1 bg-danger text-light border  border-1 rounded" />
+                      <div>
+                        <h1 className="fs-5">Upcoming Trips</h1>
+                        <span>Today at 12.00 PM</span>
+                        
+                      </div>
+                    </div>
+                </div> */}
               </div>
             </div>
           </div>

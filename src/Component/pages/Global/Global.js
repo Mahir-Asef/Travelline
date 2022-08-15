@@ -19,7 +19,7 @@ const Global = () => {
                 </p>
                 </div>
                 <div className="d-flex container flex-column flex-sm-row justify-content-evenly align-items-center  mt-3">
-                <div className='px-auto my-sm-3'>
+                <div className='px-auto my-sm-3 '>
                     <img
                     src={g1}
                     width="350px"
@@ -27,7 +27,7 @@ const Global = () => {
                     height="430px"
                     />
                 </div>
-                <div>
+                <div className='mt-3'>
                     <img
                     src={g2}
                     width="350px"

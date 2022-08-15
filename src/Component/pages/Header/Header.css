@@ -9,3 +9,17 @@
     bottom: 20px;
     left: 20px;
 }
+.group-one{
+    width: 300px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+.group-two{
+    width: 390px;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
