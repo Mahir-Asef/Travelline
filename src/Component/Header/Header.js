@@ -8,7 +8,7 @@ import { IoMdCall } from "react-icons/io";
 // import { GoCalendar } from "@react-icons/all-files/go/GoCalendar";
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header rounded-bottom">
       <div className="container">
         <nav className="navbar fixed-top navbar-expand-lg" style={{backgroundColor:"#F0C53E"}}>
           <div className="container-fluid">
